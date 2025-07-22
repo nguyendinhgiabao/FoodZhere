@@ -1204,17 +1204,16 @@ ol {
 /* === END NEW PRODUCT GRID LAYOUT === */
 
 .product__item__text .cart_add {
-  position: absolute;
-  left: 0;
-  bottom: -20px;
+  position: static;
+  left: unset;
+  bottom: unset;
   width: 100%;
-  -webkit-transition: all, 0.5s;
-  -moz-transition: all, 0.5s;
-  -ms-transition: all, 0.5s;
-  -o-transition: all, 0.5s;
-  transition: all, 0.5s;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  text-align: left;
 }
 .product__item__text .cart_add a {
   display: inline-block;
@@ -4141,5 +4140,18 @@ ol {
   .gallery-featured-img {
     height: 120px;
   }
+}
+
+.product__item__rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.product__item__rating .icon_star,
+.product__item__rating .icon_star-half_alt {
+  color: #ffc107;
+  margin: 0 1px;
 }
 
