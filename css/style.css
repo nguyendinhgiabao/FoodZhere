@@ -119,13 +119,11 @@ ol {
   margin-bottom: 10px;
 }
 .section-title h2 {
-<<<<<<< HEAD
+
   font-size: 46px;
   color: #111111;
-=======
   color: #d32f2f;
   font-size: 46px;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
   line-height: 60px;
   font-weight: 700;
   font-style: italic;
@@ -163,13 +161,11 @@ ol {
   font-weight: 600;
   text-transform: uppercase;
   padding: 14px 30px;
-<<<<<<< HEAD
+
   color: #ffffff;
   background: #f08632;
-=======
   color: #fff;
   background: #d32f2f;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
   letter-spacing: 2px;
 }
 
@@ -328,13 +324,10 @@ ol {
 .header__top__inner {
   height: 102px;
   padding-top: 38px;
-<<<<<<< HEAD
-=======
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 }
 
 .header__top__left {
@@ -364,7 +357,7 @@ ol {
   padding: 2px 0;
   position: absolute;
   left: 0;
-  top: 44px;
+  top:6bdfee1b259f8329f6 44px;
   opacity: 0;
   visibility: hidden;
   z-index: 3;
@@ -402,28 +395,24 @@ ol {
 }
 
 .header__logo {
-<<<<<<< HEAD
+
   position: absolute;
   left: 50%;
   top: 25px;
   margin-left: -60px;
-=======
   position: static;
   margin: 0 auto;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 }
 .header__logo a {
   display: inline-block;
 }
-<<<<<<< HEAD
-=======
+
 .header__logo img {
   max-height: 40px;
   width: auto;
   display: block;
   margin: 0 auto;
 }
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 
 .header__top__right {
   float: right;
@@ -664,10 +653,8 @@ ol {
   margin-bottom: 8px;
 }
 .categories__item__icon h5 {
-<<<<<<< HEAD
-=======
+
   color: #d32f2f;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
   font-size: 18px;
   font-weight: 700;
   margin: 0;
@@ -735,11 +722,9 @@ ol {
   transition: all, 0.2s;
 }
 .categories__item__icon h5 {
-<<<<<<< HEAD
+
   color: #111111;
-=======
   color: #d32f2f;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 4px;
@@ -760,9 +745,8 @@ ol {
 }
 
 .class__form {
-<<<<<<< HEAD
+
   height: 620px;
-=======
   /* height: 620px; */
   min-height: 420px;
   background: #fff;
@@ -772,7 +756,6 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: center;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 }
 .class__form form input {
   height: 50px;
@@ -818,7 +801,7 @@ ol {
 }
 
 .class__video {
-<<<<<<< HEAD
+
   height: 720px;
   width: 47%;
   display: flex;
@@ -838,7 +821,6 @@ ol {
   line-height: 70px;
   text-align: center;
   border-radius: 50%;
-=======
   /* height: 720px; */
   /* width: 47%; */
   /* position: absolute; */
@@ -876,7 +858,6 @@ ol {
     max-width: 100%;
     margin-left: 0;
   }
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 }
 
 /*---------------------
@@ -895,14 +876,13 @@ ol {
   color: #111111;
 }
 
-<<<<<<< HEAD
+
 .team__item {
   height: 360px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
-=======
 .team__item.set-bg {
   margin: 0 12px 30px 12px;
   flex: 1 1 220px;
@@ -929,7 +909,6 @@ ol {
   }
 }
 
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 .team__item:hover .team__item__text {
   opacity: 1;
   bottom: 0;
@@ -1159,7 +1138,7 @@ ol {
   padding-top: 50px;
 }
 
-<<<<<<< HEAD
+
 .product .row {
   display: flex;
   flex-wrap: wrap;
@@ -1261,7 +1240,6 @@ ol {
   transition: all, 0.5s;
   opacity: 0;
   visibility: hidden;
-=======
 /* === NEW PRODUCT GRID LAYOUT === */
 .shop .row {
   display: grid !important;
@@ -1382,7 +1360,6 @@ ol {
   margin-bottom: 0;
   display: block;
   text-align: left;
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 }
 .product__item__text .cart_add a {
   display: inline-block;
@@ -1451,15 +1428,13 @@ ol {
 .footer__about .footer__logo a {
   display: inline-block;
 }
-<<<<<<< HEAD
-=======
+
 .footer__about .footer__logo img {
   max-height: 55px;
   width: auto;
   display: block;
   margin: 0 auto;
 }
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 .footer__about p {
   font-size: 14px;
   color: #a4a4a4;
@@ -2583,8 +2558,7 @@ ol {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
+
 .blog .row {
   display: flex;
   flex-wrap: wrap;
@@ -2621,7 +2595,6 @@ ol {
   }
 }
 
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
 .blog__item {
   margin-bottom: 70px;
 }
@@ -4121,8 +4094,7 @@ ol {
     display: none;
   }
 }
-<<<<<<< HEAD
-=======
+
 
 .gallery__grid {
   display: flex;
@@ -4413,5 +4385,4 @@ ol {
   height: auto;
   border-radius: 12px;
 }
-
->>>>>>> 8ab71d4813c8b016c1b0856bdfee1b259f8329f6
+}
