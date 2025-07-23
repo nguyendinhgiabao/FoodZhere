@@ -7,7 +7,7 @@
     <meta name="keywords" content="Cake, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog | Cửa Hàng Bánh</title>
+    <title>Giỏ hàng | Cửa Hàng Bánh</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
@@ -16,6 +16,7 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
@@ -23,10 +24,11 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/blog.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/shoping-cart.css" type="text/css">
 </head>
 
-<body class="page-blog">
+<body class="page-shoping-cart">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -59,8 +61,8 @@
                 </li>
                 <li>ENG <span class="arrow_carrot-down"></span>
                     <ul>
+                        <li>Spanish</li>
                         <li>ENG</li>
-                        <li>VNG</li>
                     </ul>
                 </li>
                 <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
@@ -80,14 +82,14 @@
                                 <ul>
                                     <li>USD <span class="arrow_carrot-down"></span>
                                         <ul>
-                                            <li>VND</li>
+                                            <li>EUR</li>
                                             <li>USD</li>
                                         </ul>
                                     </li>
                                     <li>ENG <span class="arrow_carrot-down"></span>
                                         <ul>
+                                            <li>Spanish</li>
                                             <li>ENG</li>
-                                            <li>VN</li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
@@ -140,131 +142,159 @@
     </header>
     <!-- Header Section End -->
 
-    <!-- Blog Banner Begin -->
-    <section class="breadcrumb-option">
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="breadcrumb__text">
-                        <h2>Blog FoodZhere</h2>
-                        <div class="breadcrumb__links">
-                            <a href="index.html">Trang chủ</a>
-                            <span>Blog</span>
-                        </div>
+                        <h2>Shopping cart</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="breadcrumb__links">
+                        <a href="./index.html">Home</a>
+                        <span>Shopping cart</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Blog Banner End -->
+    </div>
+    <!-- Breadcrumb End -->
 
-    <!-- Blog Section Begin -->
-    <section class="blog spad">
+    <!-- Shopping Cart Section Begin -->
+    <section class="shopping-cart spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-8">
+                <div class="col-lg-8">
+                    <div class="shopping__cart__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="img/shop/cart/cart-1.jpg" alt="">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6>T-shirt Contrast Pocket</h6>
+                                            <h5>$98.49</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">$ 30.00</td>
+                                    <td class="cart__close"><span class="icon_close"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="img/shop/cart/cart-2.jpg" alt="">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6>Diagonal Textured Cap</h6>
+                                            <h5>$98.49</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">$ 32.50</td>
+                                    <td class="cart__close"><span class="icon_close"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="img/shop/cart/cart-3.jpg" alt="">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6>Basic Flowing Scarf</h6>
+                                            <h5>$98.49</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">$ 47.00</td>
+                                    <td class="cart__close"><span class="icon_close"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__pic">
+                                            <img src="img/shop/cart/cart-4.jpg" alt="">
+                                        </div>
+                                        <div class="product__cart__item__text">
+                                            <h6>Basic Flowing Scarf</h6>
+                                            <h5>$98.49</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__price">$ 30.00</td>
+                                    <td class="cart__close"><span class="icon_close"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg"></div>
-                                <div class="blog__item__text">
-                                    <span><img src="img/icon/calendar.png" alt=""> 12/06/2024</span>
-                                    <h5><a href="#">Top 5 món fast food bán chạy nhất tháng 6</a></h5>
-                                    <p>Khám phá những món ăn nhanh được yêu thích nhất tại FoodZhere trong tháng này: Burger bò phô mai, Pizza hải sản, Gà rán giòn cay...</p>
-                                    <a href="#">Đọc tiếp</a>
-                                </div>
+                            <div class="continue__btn">
+                                <a href="#">Continue Shopping</a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg"></div>
-                                <div class="blog__item__text">
-                                    <span><img src="img/icon/calendar.png" alt=""> 10/06/2024</span>
-                                    <h5><a href="#">Mẹo ăn fast food không lo tăng cân</a></h5>
-                                    <p>Bí quyết chọn món, kết hợp rau củ và đồ uống giúp bạn thưởng thức đồ ăn nhanh mà vẫn giữ dáng, khỏe mạnh.</p>
-                                    <a href="#">Đọc tiếp</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg"></div>
-                                <div class="blog__item__text">
-                                    <span><img src="img/icon/calendar.png" alt=""> 05/06/2024</span>
-                                    <h5><a href="#">Combo tiết kiệm – Lựa chọn thông minh cho gia đình</a></h5>
-                                    <p>Combo Burger + Khoai + Nước, Combo Pizza + Nước... giúp bạn tiết kiệm chi phí mà vẫn no bụng, đủ vị.</p>
-                                    <a href="#">Đọc tiếp</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="blog__item">
-                                <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-4.jpg"></div>
-                                <div class="blog__item__text">
-                                    <span><img src="img/icon/calendar.png" alt=""> 01/06/2024</span>
-                                    <h5><a href="#">Review: Pizza xúc xích phô mai mới ra mắt</a></h5>
-                                    <p>Pizza xúc xích phô mai – lớp phô mai kéo sợi, xúc xích đậm vị, đế bánh giòn thơm, chắc chắn sẽ làm hài lòng mọi tín đồ fast food.</p>
-                                    <a href="#">Đọc tiếp</a>
-                                </div>
+                            <div class="continue__btn update__btn">
+                                <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="blog__sidebar">
-                        <div class="blog__sidebar__search">
-                            <form action="#">
-                                <input type="text" placeholder="Tìm bài viết...">
-                                <button type="submit"><span class="icon_search"></span></button>
-                            </form>
-                        </div>
-                        <div class="blog__sidebar__row" style="display: flex; flex-direction: column; gap: 24px;">
-                            <div class="blog__sidebar__item" style="flex: 1 1 0; min-width: 0;">
-                                <h5>Bài viết mới</h5>
-                                <div class="blog__sidebar__recent recent-posts">
-                                    <a class="recent-post" href="#">
-                                        <div class="recent-post__thumb">
-                                            <img src="img/blog/blog-1.jpg" alt="">
-                                        </div>
-                                        <div class="recent-post__info">
-                                            <div class="recent-post__title">Top 5 món fast food bán chạy nhất tháng 6</div>
-                                            <div class="recent-post__date">12/06/2024</div>
-                                        </div>
-                                    </a>
-                                    <a class="recent-post" href="#">
-                                        <div class="recent-post__thumb">
-                                            <img src="img/blog/blog-2.jpg" alt="">
-                                        </div>
-                                        <div class="recent-post__info">
-                                            <div class="recent-post__title">Mẹo ăn fast food không lo tăng cân</div>
-                                            <div class="recent-post__date">10/06/2024</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog__sidebar__item">
-                            <h5>Chủ đề</h5>
-                            <ul>
-                                <li><a href="#">Fast food</a></li>
-                                <li><a href="#">Ưu đãi</a></li>
-                                <li><a href="#">Review món mới</a></li>
-                                <li><a href="#">Mẹo ăn uống</a></li>
-                            </ul>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="cart__discount">
+                        <h6>Discount codes</h6>
+                        <form action="#">
+                            <input type="text" placeholder="Coupon code">
+                            <button type="submit">Apply</button>
+                        </form>
                     </div>
-                </div>
-                <div class="col-lg-2 d-none d-lg-block">
-                    <div class="sidebar-banner" style="margin-top: 40px;">
-                        <a href="#" class="sidebar-banner__link">
-                            <img src="img/blog/50percent.jpg" alt="Ưu đãi 50%" class="sidebar-banner__img">
-                        </a>
+                    <div class="cart__total">
+                        <h6>Cart total</h6>
+                        <ul>
+                            <li>Subtotal <span>$ 169.50</span></li>
+                            <li>Total <span>$ 169.50</span></li>
+                        </ul>
+                        <a href="#" class="primary-btn">Thanh toán</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Blog Section End -->
+    <!-- Shopping Cart Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
@@ -311,43 +341,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <p class="copyright__text text-white"></p>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="copyright__widget">
-                            <ul>
-                                <li><a href="#">Chính sách bảo mật</a></li>
-                                <li><a href="#">Điều khoản sử dụng</a></li>
-                                <li><a href="#">Sơ đồ site</a></li>
-                            </ul>
-                        </div>
+                        <p class="copyright__text text-white"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                      </p>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="copyright__widget">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Search Begin -->
-    <div class="search-model">
-        <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
-            </form>
-        </div>
     </div>
-    <!-- Search End -->
+</footer>
+<!-- Footer Section End -->
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/jquery.nice-select.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.nicescroll.js"></script>
-    <script src="js/main.js"></script>
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.barfiller.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
