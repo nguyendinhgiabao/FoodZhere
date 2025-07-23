@@ -132,31 +132,30 @@
     /*---------------------------------
         Related Products Slider
     ----------------------------------*/
-    $(".related__products__slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 4,
-        dots: false,
-        nav: true,
-        navText: ["<span class='arrow_carrot-left'><span/>", "<span class='arrow_carrot-right'><span/>"],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 2
-            },
-            768: {
-                items: 3
-            },
-            992: {
-                items: 4
-            },
-        }
-    });
+$(".related__products__slider").owlCarousel({
+  loop: true,
+  margin: 20,
+  items: 4,
+  dots: false,
+  nav: true,
+  navText: ["<span class='arrow_carrot-left'></span>", "<span class='arrow_carrot-right'></span>"],
+  smartSpeed: 500,
+  autoplay: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    576: {
+      items: 2
+    },
+    768: {
+      items: 3
+    },
+    992: {
+      items: 4
+    }
+  }
+});
 
     /*--------------------------
         Select
