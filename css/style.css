@@ -1084,7 +1084,7 @@ ol {
   margin-bottom: 32px;
   border-radius: 12px;
   border: 1px solid #eee;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   background: #fff;
   box-sizing: border-box;
   padding: 0 0 18px 0;
@@ -1827,22 +1827,44 @@ ol {
 .shopping__cart__table table tbody tr td.product__cart__item {
   width: 400px;
 }
-.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__pic {
   float: left;
   margin-right: 30px;
 }
-.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__text {
   overflow: hidden;
   padding-top: 21px;
 }
-.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6 {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__text
+  h6 {
   color: #111111;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text h5 {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__text
+  h5 {
   color: #111111;
   font-weight: 600;
   font-size: 16px;
@@ -1853,7 +1875,14 @@ ol {
 .shopping__cart__table table tbody tr td.quantity__item .quantity .pro-qty {
   width: 90px;
 }
-.shopping__cart__table table tbody tr td.quantity__item .quantity .pro-qty input {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.quantity__item
+  .quantity
+  .pro-qty
+  input {
   width: 65px;
   border: none;
   text-align: center;
@@ -1861,7 +1890,14 @@ ol {
   font-size: 16px;
   font-weight: 500;
 }
-.shopping__cart__table table tbody tr td.quantity__item .quantity .pro-qty .qtybtn {
+.shopping__cart__table
+  table
+  tbody
+  tr
+  td.quantity__item
+  .quantity
+  .pro-qty
+  .qtybtn {
   font-size: 16px;
   color: #888888;
   width: 10px;
@@ -2193,15 +2229,31 @@ ol {
 .wishlist__cart__table table tbody tr td.product__cart__item {
   width: 540px;
 }
-.wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
+.wishlist__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__pic {
   float: left;
   margin-right: 30px;
 }
-.wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
+.wishlist__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__text {
   overflow: hidden;
   padding-top: 35px;
 }
-.wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6 {
+.wishlist__cart__table
+  table
+  tbody
+  tr
+  td.product__cart__item
+  .product__cart__item__text
+  h6 {
   color: #111111;
   font-size: 16px;
   font-weight: 600;
@@ -3022,7 +3074,9 @@ ol {
 .blog__details__comment__item__text .blog__details__comment__btns a:last-child {
   margin-right: 0;
 }
-.blog__details__comment__item__text .blog__details__comment__btns a:last-child:after {
+.blog__details__comment__item__text
+  .blog__details__comment__btns
+  a:last-child:after {
   display: none;
 }
 
@@ -3156,7 +3210,12 @@ ol {
   .footer__widget:after {
     right: 0px;
   }
-  .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
+  .shopping__cart__table
+    table
+    tbody
+    tr
+    td.product__cart__item
+    .product__cart__item__text {
     padding-top: 10px;
   }
   .wishlist__cart__table table tbody tr td.cart__btn .primary-btn {
@@ -3608,7 +3667,12 @@ ol {
   .related__products__slider.owl-carousel .owl-nav button.owl-next {
     left: 5px;
   }
-  .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
+  .shopping__cart__table
+    table
+    tbody
+    tr
+    td.product__cart__item
+    .product__cart__item__pic {
     float: none;
     margin-right: 0;
   }
@@ -3624,7 +3688,12 @@ ol {
   .wishlist__cart__table {
     overflow-x: auto;
   }
-  .wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
+  .wishlist__cart__table
+    table
+    tbody
+    tr
+    td.product__cart__item
+    .product__cart__item__pic {
     float: none;
     margin-right: 0;
   }
@@ -3916,4 +3985,9 @@ ol {
   .gallery__item img {
     height: 140px;
   }
+}
+
+.product__details__content {
+  display: flex;
+  gap: 30px;
 }
