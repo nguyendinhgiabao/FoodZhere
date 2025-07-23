@@ -370,8 +370,8 @@ ol {
 }
 
 .header__logo img {
-  max-height: 40px;
-  width: auto;
+  height: auto;
+  width: 100px;
   display: block;
   margin: 0 auto;
 }
