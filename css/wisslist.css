@@ -1,0 +1,94 @@
+/* CSS riêng cho trang danh sách yêu thích (wisslist.html) */
+
+.page-wisslist .wishlist__cart__table table {
+  width: 100%;
+}
+
+.page-wisslist .wishlist__cart__table table thead {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.page-wisslist .wishlist__cart__table table thead tr th {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr:last-child td {
+  padding-bottom: 0;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.product__cart__item {
+  width: 540px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
+  float: left;
+  margin-right: 30px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__text {
+  overflow: hidden;
+  padding-top: 35px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.product__cart__item .product__cart__item__text h6 {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__price {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 600;
+  width: 180px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__stock {
+  font-size: 16px;
+  color: #444444;
+  width: 150px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__btn {
+  width: 190px;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__btn .primary-btn {
+  background: #111111;
+  color: #ffffff;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__close {
+  text-align: right;
+}
+
+.page-wisslist .wishlist__cart__table table tbody tr td.cart__close span {
+  font-size: 18px;
+  display: inline-block;
+  color: #111111;
+  height: 40px;
+  width: 40px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  line-height: 38px;
+  text-align: center;
+} 

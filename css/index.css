@@ -1,0 +1,181 @@
+/* CSS riêng cho trang chủ (index.html) */
+
+.page-index .hero__item {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.page-index .hero__text {
+  text-align: center;
+  background: #ffffff;
+  padding: 65px 70px 70px;
+  position: relative;
+}
+
+.page-index .hero__text:after {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  border: 1px dashed #f08632;
+  content: "";
+  opacity: 0.3;
+}
+
+.page-index .hero__text h2 {
+  font-size: 46px;
+  color: #111111;
+  line-height: 60px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 18px;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  transition: all, 0.3s;
+}
+
+.page-index .hero__text .primary-btn {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+  transition: all, 0.6s;
+}
+
+.page-index .hero__slider.owl-carousel .owl-item.active .hero__text h2 {
+  top: 0;
+  opacity: 1;
+}
+
+.page-index .hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
+  top: 0;
+  opacity: 1;
+}
+
+.page-index .hero__slider.owl-carousel .owl-nav button {
+  height: 50px;
+  width: 50px;
+  background: rgba(17, 17, 17, 0.5);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.page-index .hero__slider.owl-carousel .owl-nav button.owl-next {
+  left: auto;
+  right: 30px;
+}
+
+.page-index .categories__slider {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.page-index .categories__item {
+  flex: 0 1 160px;
+  text-align: center;
+  margin: 0 8px;
+}
+
+.page-index .categories__item__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-index .categories__item__icon span {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.page-index .categories__item__icon h5 {
+  color: #d32f2f;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  .page-index .categories__slider {
+    gap: 16px;
+  }
+  .page-index .categories__item {
+    flex: 0 1 120px;
+  }
+  .page-index .categories__item__icon span {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-index .categories__slider {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .page-index .categories__item {
+    flex: 1 1 100%;
+    margin: 0;
+  }
+}
+
+.page-index .categories__item:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -48px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #f08632;
+  border-color: transparent #f08632 #f08632 transparent;
+  content: "";
+  transform: rotate(-135deg);
+  opacity: 0;
+  transition: all, 0.3s;
+}
+
+.page-index .categories__item:hover {
+  background: #f08632;
+}
+
+.page-index .categories__item:hover:after {
+  opacity: 1;
+}
+
+.page-index .categories__item:hover span {
+  color: #ffffff;
+}
+
+.page-index .categories__item:hover h5 {
+  color: #ffffff;
+}
+
+.page-index .categories__item__icon span {
+  color: #f08632;
+  transition: all, 0.2s;
+}
+
+.page-index .categories__item__icon h5 {
+  color: #d32f2f;
+  color: #111111;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4px;
+  transition: all, 0.2s;
+}
+
+/* ... các phần khác của index.html như .index-product-row, .gallery-featured-row ... */ 
