@@ -4155,3 +4155,85 @@ ol {
   margin: 0 1px;
 }
 
+/* Recent Posts Sidebar - Blog */
+.recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.recent-post {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 6px 0;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+.recent-post:hover {
+  background: #f7f7f7;
+}
+.recent-post__thumb {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-right: 14px;
+}
+.recent-post__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.recent-post__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.recent-post__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 3px;
+  line-height: 1.35;
+  transition: color 0.2s;
+}
+.recent-post:hover .recent-post__title {
+  color: #e96b56;
+}
+.recent-post__date {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+/* Sidebar Banner - Blog */
+.sidebar-banner {
+  margin: 18px 0 22px 0;
+  text-align: right;
+  width: 100%;
+  margin-left: 6em;
+}
+.sidebar-banner__link {
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.sidebar-banner__link:hover {
+  transform: scale(1.035);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.16);
+}
+.sidebar-banner__img {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  border-radius: 12px;
+}
+

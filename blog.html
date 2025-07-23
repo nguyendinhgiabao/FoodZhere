@@ -16,7 +16,6 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
@@ -219,26 +218,28 @@
                                 <button type="submit"><span class="icon_search"></span></button>
                             </form>
                         </div>
-                        <div class="blog__sidebar__item">
-                            <h5>Bài viết mới</h5>
-                            <div class="blog__sidebar__recent">
-                                <div class="blog__sidebar__recent__item">
-                                    <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/blog-1.jpg" alt="">
-                                    </div>
-                                    <div class="blog__sidebar__recent__item__text">
-                                        <h4><a href="#">Top 5 món fast food bán chạy nhất tháng 6</a></h4>
-                                        <span>12/06/2024</span>
-                                    </div>
-                                </div>
-                                <div class="blog__sidebar__recent__item">
-                                    <div class="blog__sidebar__recent__item__pic">
-                                        <img src="img/blog/blog-2.jpg" alt="">
-                                    </div>
-                                    <div class="blog__sidebar__recent__item__text">
-                                        <h4><a href="#">Mẹo ăn fast food không lo tăng cân</a></h4>
-                                        <span>10/06/2024</span>
-                                    </div>
+                        <div class="blog__sidebar__row" style="display: flex; flex-direction: column; gap: 24px;">
+                            <div class="blog__sidebar__item" style="flex: 1 1 0; min-width: 0;">
+                                <h5>Bài viết mới</h5>
+                                <div class="blog__sidebar__recent recent-posts">
+                                    <a class="recent-post" href="#">
+                                        <div class="recent-post__thumb">
+                                            <img src="img/blog/blog-1.jpg" alt="">
+                                        </div>
+                                        <div class="recent-post__info">
+                                            <div class="recent-post__title">Top 5 món fast food bán chạy nhất tháng 6</div>
+                                            <div class="recent-post__date">12/06/2024</div>
+                                        </div>
+                                    </a>
+                                    <a class="recent-post" href="#">
+                                        <div class="recent-post__thumb">
+                                            <img src="img/blog/blog-2.jpg" alt="">
+                                        </div>
+                                        <div class="recent-post__info">
+                                            <div class="recent-post__title">Mẹo ăn fast food không lo tăng cân</div>
+                                            <div class="recent-post__date">10/06/2024</div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -251,6 +252,13 @@
                                 <li><a href="#">Mẹo ăn uống</a></li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="sidebar-banner" style="margin-top: 40px;">
+                        <a href="#" class="sidebar-banner__link">
+                            <img src="img/blog/50percent.jpg" alt="Ưu đãi 50%" class="sidebar-banner__img">
+                        </a>
                     </div>
                 </div>
             </div>
