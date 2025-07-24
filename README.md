@@ -1,7 +1,25 @@
 # 📄 Tổng quan Dự án
 
-Dự án này là một mẫu giao diện web, phù hợp cho doanh nghiệp liên quan đến ẩm thực. Bao gồm nhiều trang HTML, CSS, JavaScript và tài nguyên hình ảnh, cung cấp cấu trúc và thiết kế front-end cho website với các trang như: giới thiệu, blog, liên hệ, cửa hàng, v.v.
+Dự án này là một mẫu giao diện web, phù hợp cho doanh nghiệp liên quan đến ẩm thực...
 
+## 🌐 Demo
+Truy cập thử: [https://nguyendinhgiabao.github.io/do_an_web/](#)
+
+## 🖼️ Ảnh giao diện
+![Trang chủ](img/screenshot_home.png)
+![Trang sản phẩm](img/screenshot_shop.png)
+
+## 🗂️ Cấu trúc thư mục
+
+```
+do_an_web/
+├── index.html
+├── about.html
+├── css/
+├── js/
+├── img/
+└── ...
+```
 ---
 
 ## ✨ Tính năng nổi bật
