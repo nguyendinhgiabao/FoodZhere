@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta name="keywords" content="Cake, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cửa hàng | Cửa Hàng Bánh</title>
+    <title>Cửa hàng | FoodZhere</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
@@ -16,6 +16,8 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
@@ -23,10 +25,10 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/shop.css" type="text/css">
 </head>
 
-<body>
+<body class="page-shop">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -160,261 +162,147 @@
 
     <!-- Shop Section Begin -->
     <section class="shop spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="shop__option">
-                        <div class="shop__option__search">
-                            <form action="#">
-                                <input type="text" placeholder="Tìm món ăn nhanh...">
-                                <button type="submit"><span class="icon_search"></span></button>
-                            </form>
-                        </div>
-                        <div class="shop__option__right">
-                            <select>
-                                <option value="">Tất cả</option>
-                                <option value="burger">Burger</option>
-                                <option value="pizza">Pizza</option>
-                                <option value="chicken">Gà rán</option>
-                                <option value="fries">Khoai tây chiên</option>
-                                <option value="drink">Đồ uống</option>
-                                <option value="combo">Combo tiết kiệm</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+      <div class="shop-container" style="display:flex;gap:40px;align-items:flex-start;max-width:1280px;margin:0 auto;">
+        <div class="shop-main" style="flex:1;">
+          <div class="shop__option" style="display:flex;gap:16px;margin-bottom:32px;">
+            <form class="shop__option__search" action="#" style="flex:1;display:flex;">
+              <input type="text" placeholder="Tìm món ăn nhanh..." style="flex:1;height:44px;border-radius:6px 0 0 6px;border:1px solid #e1e1e1;padding-left:16px;font-size:16px;">
+              <button type="submit" style="height:44px;border:none;background:#f08632;color:#fff;font-size:18px;border-radius:0 6px 6px 0;padding:0 18px;cursor:pointer;">Tìm</button>
+            </form>
+            <div class="shop__option__right" style="width:220px;">
+              <select style="width:100%;height:44px;border:1px solid #e1e1e1;border-radius:6px;padding-left:16px;font-size:16px;background:#f5f5f5;">
+                <option value="">Tất cả</option>
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+                <option value="chicken">Gà rán</option>
+                <option value="fries">Khoai tây chiên</option>
+                <option value="drink">Đồ uống</option>
+                <option value="combo">Combo tiết kiệm</option>
+              </select>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-1.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Burger bò phô mai</a></h6>
-                            <div class="product__item__price">45.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-2.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Pizza hải sản</a></h6>
-                            <div class="product__item__price">89.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-3.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Gà rán giòn cay</a></h6>
-                            <div class="product__item__price">55.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-4.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Khoai tây lắc phô mai</a></h6>
-                            <div class="product__item__price">25.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-5.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Pepsi</a></h6>
-                            <div class="product__item__price">15.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-6.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Combo Burger + Khoai + Nước</a></h6>
-                            <div class="product__item__price">75.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-7.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Gà viên sốt cay</a></h6>
-                            <div class="product__item__price">39.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-8.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Pizza xúc xích phô mai</a></h6>
-                            <div class="product__item__price">79.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-9.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Khoai tây lắc BBQ</a></h6>
-                            <div class="product__item__price">27.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-10.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Burger gà giòn</a></h6>
-                            <div class="product__item__price">42.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-11.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Combo Pizza + Nước</a></h6>
-                            <div class="product__item__price">95.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-12.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <div class="product__item__rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <h6><a href="#">Trà sữa trân châu</a></h6>
-                            <div class="product__item__price">29.000₫</div>
-                            <div class="cart_add"><a href="#">Thêm vào giỏ</a></div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="shop-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px;">
+            <div class="shop-card" style="background:#fff;border-radius:16px;box-shadow:0 8px 32px rgba(240,134,50,0.18);transition:transform 0.2s,box-shadow 0.2s;overflow:hidden;">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-1.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;">
+              </div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:none;padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:22px;font-weight:700;margin-bottom:10px;color:#d96c1a;">Burger bò phô mai</h3>
+                <div class="shop-card__price" style="font-size:20px;font-weight:800;color:#f08632;margin-bottom:16px;">45.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:linear-gradient(90deg,#f08632,#ffd700);color:#fff;padding:10px 24px;border-radius:8px;font-size:16px;font-weight:700;text-decoration:none;box-shadow:0 2px 8px rgba(240,134,50,0.18);transition:background 0.2s;">Thêm vào giỏ</a>
+              </div>
             </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-2.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Pizza hải sản</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">89.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-3.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Gà rán giòn cay</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">55.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-4.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Khoai tây lắc phô mai</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">25.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-5.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Pepsi</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">15.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-6.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Combo Burger + Khoai + Nước</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">75.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-7.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Gà viên sốt cay</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">39.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-8.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Pizza xúc xích phô mai</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">79.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-9.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Khoai tây lắc BBQ</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">27.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-10.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Burger gà giòn</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">42.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-11.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Combo Pizza + Nước</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">95.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+            <div class="shop-card">
+              <div class="shop-card__img" style="width:100%;height:220px;background:url('img/shop/product-12.jpg') center/cover no-repeat;border-radius:16px 16px 0 0;"></div>
+              <div class="shop-card__body" style="background:#fff;border-radius:0 0 16px 16px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:24px 20px;">
+                <h3 class="shop-card__title" style="font-size:20px;margin-bottom:10px;">Trà sữa trân châu</h3>
+                <div class="shop-card__price" style="font-size:17px;font-weight:700;color:#d96c1a;margin-bottom:12px;">29.000₫</div>
+                <a href="#" class="shop-card__btn" style="display:inline-block;background:#f08632;color:#fff;padding:8px 18px;border-radius:6px;font-size:15px;font-weight:600;text-decoration:none;">Thêm vào giỏ</a>
+              </div>
+            </div>
+          </div>
         </div>
+        <aside class="shop-sidebar" style="width:300px;flex-shrink:0;display:flex;flex-direction:column;gap:32px;">
+          <div class="shop-sidebar__item" style="background:#fffbe6;border-radius:16px;box-shadow:0 2px 16px rgba(240,134,50,0.10);padding:22px 18px;">
+            <h5 style="font-size:17px;font-weight:800;margin-bottom:14px;color:#d96c1a;"><span style="margin-right:8px;">🍔</span>Lọc sản phẩm</h5>
+            <ul style="padding-left:18px;">
+              <li style="margin-bottom:8px;"><a href="#">Tất cả</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Burger</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Pizza</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Gà rán</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Khoai tây chiên</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Đồ uống</a></li>
+              <li style="margin-bottom:8px;"><a href="#">Combo tiết kiệm</a></li>
+            </ul>
+          </div>
+          <div class="shop-sidebar__item" style="background:#fff;border-radius:16px;box-shadow:0 2px 16px rgba(240,134,50,0.10);padding:22px 18px;">
+            <h5 style="font-size:17px;font-weight:800;margin-bottom:14px;color:#d96c1a;">Ưu đãi hot</h5>
+            <div class="shop-sidebar__promo" style="text-align:center;">
+              <img src="img/blog/50percent.jpg" alt="Ưu đãi 50%" style="width:100%;border-radius:10px;box-shadow:0 2px 8px rgba(240,134,50,0.10);">
+              <div style="font-size:16px;font-weight:700;color:#f08632;margin-top:10px;">Giảm 50% cho đơn đầu tiên!</div>
+            </div>
+          </div>
+        </aside>
+      </div>
     </section>
     <!-- Shop Section End -->
 
