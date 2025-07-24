@@ -1,0 +1,99 @@
+/* CSS riêng cho trang liên hệ (contact.html) */
+
+.page-contact .contact .map {
+  height: 400px;
+  margin-bottom: 70px;
+}
+
+.page-contact .contact__address {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e8eff4;
+  margin-bottom: 70px;
+}
+
+.page-contact .contact__address__item {
+  margin-bottom: 30px;
+}
+
+.page-contact .contact__address__item h6 {
+  color: #111111;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.page-contact .contact__address__item ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.page-contact .contact__address__item ul li:last-child {
+  margin-bottom: 0;
+}
+
+.page-contact .contact__address__item ul li span {
+  font-size: 24px;
+  color: #111111;
+  margin-right: 25px;
+  float: left;
+}
+
+.page-contact .contact__address__item ul li p {
+  font-size: 14px;
+  color: #444444;
+  line-height: 26px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.page-contact .contact__text h3 {
+  color: #111111;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
+.page-contact .contact__text ul {
+  margin-bottom: 35px;
+}
+
+.page-contact .contact__text ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #444444;
+  line-height: 36px;
+}
+
+.page-contact .contact__form form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #e1e1e1;
+  background: #fafafa;
+  font-size: 14px;
+  color: #111111;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.page-contact .contact__form form input:last-child {
+  color: #111111;
+}
+
+.page-contact .contact__form form textarea {
+  width: 100%;
+  height: 140px;
+  border: 1px solid #e1e1e1;
+  background: #fafafa;
+  font-size: 14px;
+  color: #111111;
+  padding-left: 20px;
+  padding-top: 12px;
+  margin-bottom: 24px;
+  resize: none;
+}
+
+.page-contact .contact__form form textarea:last-child {
+  color: #111111;
+} 

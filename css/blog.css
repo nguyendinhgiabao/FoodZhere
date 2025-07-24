@@ -1,0 +1,163 @@
+/* CSS riêng cho trang blog (blog.html) */
+
+.page-blog .blog {
+  padding-top: 80px;
+}
+
+.page-blog .blog__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 0;
+}
+
+.page-blog .blog__item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  overflow: hidden;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}
+.page-blog .blog__item:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+.page-blog .blog__item__pic {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-size: cover;
+  background-position: center;
+  min-height: 180px;
+}
+.page-blog .blog__item__text {
+  padding: 20px 18px 18px 18px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page-blog .blog__item__text span {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.page-blog .blog__item__text h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.page-blog .blog__item__text p {
+  color: #444;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.page-blog .blog__item__text a {
+  color: #f08632;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  align-self: flex-start;
+  transition: color 0.2s;
+}
+.page-blog .blog__item__text a:hover {
+  color: #d96c1a;
+}
+
+.page-blog .blog__sidebar {
+  background: #faf8f6;
+  border-radius: 12px;
+  padding: 24px 18px;
+  margin-bottom: 32px;
+}
+.page-blog .blog__sidebar__search {
+  display: flex;
+  margin-bottom: 24px;
+}
+.page-blog .blog__sidebar__search input {
+  flex: 1 1 auto;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px 0 0 6px;
+  padding-left: 12px;
+  font-size: 15px;
+}
+.page-blog .blog__sidebar__search button {
+  height: 40px;
+  border: none;
+  background: #f08632;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0 6px 6px 0;
+  padding: 0 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.page-blog .blog__sidebar__search button:hover {
+  background: #d96c1a;
+}
+.page-blog .blog__sidebar__item {
+  margin-bottom: 24px;
+}
+.page-blog .blog__sidebar__item h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.page-blog .blog__sidebar__recent .recent-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.page-blog .recent-post__thumb img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.page-blog .recent-post__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+}
+.page-blog .recent-post__date {
+  font-size: 13px;
+  color: #888;
+}
+.page-blog .blog__sidebar__item ul {
+  padding-left: 18px;
+}
+.page-blog .blog__sidebar__item ul li {
+  margin-bottom: 6px;
+}
+.page-blog .sidebar-banner {
+  margin-top: 24px;
+  text-align: center;
+}
+.page-blog .sidebar-banner__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media (max-width: 991.98px) {
+  .page-blog .blog__list {
+    flex-direction: column;
+    gap: 0;
+  }
+  .page-blog .blog__sidebar {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-blog .blog {
+    padding-top: 40px;
+  }
+  .page-blog .blog__item__pic {
+    min-height: 120px;
+  }
+  .page-blog .blog__sidebar {
+    padding: 16px 8px;
+  }
+} 
