@@ -15,8 +15,8 @@
         Preloader
     --------------------*/
     $(window).on('load', function () {
-        $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+        $(".loader").fadeOut(0); // loader tắt ngay
+        $("#preloder").fadeOut(0); // loader tắt ngay
     });
 
     /*------------------
