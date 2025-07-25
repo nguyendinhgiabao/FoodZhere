@@ -2074,3 +2074,94 @@
 }
 
 /* ============= */
+/* ===============menu pages style====================== */
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-top: 60px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.menu-buttons button {
+  border-radius: 16px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  margin: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.menu-buttons button:hover,
+.menu-buttons button.active {
+  border-color: #000;
+  color: #fff;
+  background-color: #000;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  width: 45%;
+  gap: 15px;
+}
+
+.menu-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-info h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 17px;
+}
+
+.item-info p {
+  margin: 6px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.item-info .price {
+  color: #f76c00;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-item {
+    width: 100%;
+  }
+}
