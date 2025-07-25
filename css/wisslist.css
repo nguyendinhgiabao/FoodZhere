@@ -2165,3 +2165,49 @@ h1 {
     width: 100%;
   }
 }
+/* ======================== */
+.stats-section {
+  background-image: url("../img/blog/blog-2.jpg"); /* Thay bằng đường dẫn ảnh nền bạn có */
+  background-attachment: fixed; /* Tạo hiệu ứng parallax */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  position: relative;
+  color: white;
+}
+
+.stats-section .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Lớp mờ đen phủ lên ảnh nền */
+  padding: 60px 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stat-item {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.stat-item i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.stat-item h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: wheat;
+}
+
+.stat-item p {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: wheat;
+}
