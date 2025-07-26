@@ -161,3 +161,36 @@
     padding: 16px 8px;
   }
 } 
+
+/* ===== BLOG CARD HOVER EFFECTS ===== */
+.blog-card {
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15) !important;
+}
+
+.blog-card:hover .blog-card__btn {
+  background: #ff9c5a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 134, 50, 0.3);
+}
+
+/* ===== RECENT POST HOVER ===== */
+.recent-post {
+  transition: all 0.3s ease;
+}
+
+.recent-post:hover {
+  transform: translateX(8px);
+  background: rgba(108, 99, 255, 0.05);
+  border-radius: 8px;
+  padding: 8px;
+  margin: -8px;
+}
+
+.recent-post:hover div:first-child {
+  color: #6c63ff !important;
+} 
