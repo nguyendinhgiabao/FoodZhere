@@ -39,6 +39,16 @@
 
 .page-index .hero__text .primary-btn {
   margin-top: 24px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.page-index .hero__text .primary-btn:hover {
+  background: #ff9c5a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 134, 50, 0.3);
 }
 
 .page-index .hero__slider.owl-carousel .owl-nav button {
@@ -437,4 +447,56 @@
     width: 60px;
     height: 60px;
   }
+}
+
+/* ===== PROGRESS BARS CSS ANIMATION ===== */
+.barfiller {
+  position: relative;
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.barfiller .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #111111;
+  border-radius: 3px;
+  animation: fillBar 2s ease-out forwards;
+}
+
+@keyframes fillBar {
+  from { width: 0%; }
+  to { width: var(--fill-percentage, 95%); }
+}
+
+#bar1 .fill { --fill-percentage: 95%; }
+#bar2 .fill { --fill-percentage: 90%; }
+#bar3 .fill { --fill-percentage: 85%; }
+
+/* ===== PRODUCT DETAILS THUMB SCROLL ===== */
+.product__details__thumb {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+.product__details__thumb::-webkit-scrollbar {
+  width: 6px;
+}
+
+.product__details__thumb::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.product__details__thumb::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.product__details__thumb::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7);
 } 

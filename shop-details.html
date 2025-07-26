@@ -768,29 +768,14 @@
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/jquery.nice-select.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.nicescroll.js"></script>
     <script src="js/main.js"></script>
-    /* JavaScript for Tab Switching */
+    
+    <!-- Simple Product Details Script -->
     <script>
-      document.querySelectorAll(".tab-title").forEach((tab) => {
-        tab.addEventListener("click", () => {
-          // Remove active class from all tabs
-          document
-            .querySelectorAll(".tab-title")
-            .forEach((t) => t.classList.remove("active"));
-          document
-            .querySelectorAll(".tab-pane")
-            .forEach((p) => p.classList.remove("active"));
-
-          // Add active class to clicked tab
-          tab.classList.add("active");
-          document.getElementById(tab.dataset.tab).classList.add("active");
-        });
-      });
+      // Chỉ giữ lại phần đơn giản nếu cần
+      console.log('Product details page loaded');
     </script>
   </body>
 </html>

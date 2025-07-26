@@ -152,3 +152,46 @@
     height: 160px;
   }
 } 
+
+/* ===== SHOP CARD HOVER EFFECTS ===== */
+.shop-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 36px rgba(240, 134, 50, 0.25) !important;
+}
+
+.shop-card__btn {
+  transition: all 0.3s ease;
+}
+
+.shop-card__btn:hover {
+  background: #ff9c5a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 134, 50, 0.3);
+}
+
+/* ===== SHOP CARD CLICKABLE AREA ===== */
+.shop-card {
+  position: relative;
+  z-index: 1;
+}
+
+.shop-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.shop-card:hover::before {
+  background: rgba(240, 134, 50, 0.05);
+} 

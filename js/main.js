@@ -163,27 +163,17 @@ $(".related__products__slider").owlCarousel({
     $("select").niceSelect();
 
     /*------------------
-		Magnific
-	--------------------*/
-    $('.video-popup').magnificPopup({
-        type: 'iframe'
+        Video Popup (Simple)
+    --------------------*/
+    $('.video-popup').on('click', function(e) {
+        e.preventDefault();
+        alert('Video popup - Tính năng đang phát triển');
     });
 
     /*------------------
-        Barfiller
+        Progress Bars (CSS Animation)
     --------------------*/
-    $('#bar1').barfiller({
-        barColor: '#111111',
-        duration: 2000
-    });
-    $('#bar2').barfiller({
-        barColor: '#111111',
-        duration: 2000
-    });
-    $('#bar3').barfiller({
-        barColor: '#111111',
-        duration: 2000
-    });
+    // Progress bars sẽ được xử lý bằng CSS animations
 
 
     /*------------------
@@ -225,10 +215,6 @@ $(".related__products__slider").owlCarousel({
 
     
 
-    $(".product__details__thumb").niceScroll({
-        cursorborder: "",
-        cursorcolor: "rgba(0, 0, 0, 0.5)",
-        boxzoom: false
-      });
+    // Product details thumb scroll - sử dụng CSS overflow thay vì niceScroll
 
 })(jQuery);
