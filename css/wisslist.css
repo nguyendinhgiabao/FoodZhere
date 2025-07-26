@@ -2074,3 +2074,140 @@
 }
 
 /* ============= */
+/* ===============menu pages style====================== */
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-top: 60px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.menu-buttons button {
+  border-radius: 16px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  margin: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.menu-buttons button:hover,
+.menu-buttons button.active {
+  border-color: #000;
+  color: #fff;
+  background-color: #000;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  width: 45%;
+  gap: 15px;
+}
+
+.menu-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-info h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 17px;
+}
+
+.item-info p {
+  margin: 6px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.item-info .price {
+  color: #f76c00;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-item {
+    width: 100%;
+  }
+}
+/* ======================== */
+.stats-section {
+  background-image: url("../img/blog/blog-2.jpg"); /* Thay bằng đường dẫn ảnh nền bạn có */
+  background-attachment: fixed; /* Tạo hiệu ứng parallax */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  position: relative;
+  color: white;
+}
+
+.stats-section .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Lớp mờ đen phủ lên ảnh nền */
+  padding: 60px 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stat-item {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.stat-item i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.stat-item h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: wheat;
+}
+
+.stat-item p {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: wheat;
+}
