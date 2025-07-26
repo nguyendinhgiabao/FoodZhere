@@ -1033,7 +1033,7 @@ body {
 /* ============= */
 /* =================feature=========== */
 .feature__item {
-  background: #f1edea;
+  background: linear-gradient(to bottom, #ffeeee, #ffffff);
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -1083,4 +1083,8 @@ body {
 
 .feature__item a:hover {
   color: #b02122;
+}
+.fastfood-feature__title {
+  display: flex;
+  gap: 20px;
 }
